@@ -1,8 +1,6 @@
 ---
 name: cleanup
-description: >
-  Cleanup redundant code, dead code, unnecessary logs. Fix build warnings.
-  Fix format. Use it after changes are made.
+description: 'Cleanup redundant code, dead code, unnecessary logs. Fix build warnings. Fix format. Use it after changes are made.'
 ---
 
 This should be used after changes are made or a refactor is done. Use this skill
