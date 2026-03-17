@@ -31,6 +31,16 @@ For each task:
 
 After all tasks complete and verified, check if the overall completion criteria is met.
 
+## Progress Tracking
+
+It should be transparent.
+
+- Create TODO items for each top-level task/phase.
+- While working on each top-level task/phase,
+    - Also create TODO items for detailed items under WIP top-level one.
+    - When the top-level is completed, remove those items.
+    - The top-level one is always kept.
+
 ## When to Stop and Ask for Help
 
 **STOP executing immediately when:**
