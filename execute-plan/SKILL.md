@@ -41,6 +41,33 @@ It should be transparent.
     - When the top-level is completed, remove those items.
     - The top-level one is always kept.
 
+For example
+
+```
+When the execution starts:
+
+- [ ] Phase 1: xxx
+- [ ] Phase 2: xxx
+- [ ] Phase 3: xxx
+
+While working on phase 1:
+
+- [ ] Phase 1: xxx
+- [ ] Phase 1.1: xxx
+- [ ] Phase 1.2: xxx
+- [ ] Phase 2: xxx
+- [ ] Phase 3: xxx
+
+While working on phase 2 after phase 1 is done:
+
+- [x] Phase 1: xxx
+- [ ] Phase 2: xxx
+- [ ] Phase 2.1: xxx
+- [ ] Phase 2.2: xxx
+- [ ] Phase 3: xxx
+
+```
+
 ## When to Stop and Ask for Help
 
 **STOP executing immediately when:**
