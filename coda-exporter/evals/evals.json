@@ -1,0 +1,17 @@
+{
+  "skill_name": "coda-exporter",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Export the Coda doc 'RFC ABCD' to markdown and save it in my current directory.",
+      "expected_output": "The exported file `RFC_ABCD.md` contains the correct internal markdown link `[Option 1](#option-1)` instead of the Coda URL.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Can you download my Coda page 'Project Timeline' and convert it to a .md file?",
+      "expected_output": "The exported file `Project_Timeline.md` contains the content with internal anchor links formatted correctly.",
+      "files": []
+    }
+  ]
+}
