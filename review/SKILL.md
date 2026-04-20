@@ -1,6 +1,6 @@
 ---
 name: review
-description: Review a PR or code changes following TSA conventions.
+description: Review a PR or code changes.
 allowed-tools: Bash(gh pr checks *), Bash(gh pr view *), Bash(gh pr diff *)
 ---
 
@@ -16,14 +16,12 @@ Perform a code review for a PR or set of changes.
 
 ## Step 1: Fetch Changes Information
 
-Use `gh` commands to:
+Use `git` or `gh` commands to get the changes.
 
-1. See if all checks are passed in CI for remote PR. If not, confirm with the
-   user if the review should continue.
-2. Get a list of changed files in the PR. If changes are not yet in a PR, unless
+1. Get a list of changed files in the PR. If changes are not yet in a PR, unless
    specified, get the diff with main branch.
-3. Get full diff of changes.
-4. Fetch associated issue information in Quip or Github when applicable to
+2. Get full diff of changes.
+3. Fetch associated issue information in commit messages when applicable to
    understand the root cause or business requirements.
 
 ## Step 2: Analyze Changes
@@ -116,4 +114,4 @@ comment at first glance.
 - 🎋: A wishlist item. Something the reviewer thinks would be
   cool, that's not a blocker.
 
-Never submit review comments to github automatically.
+Never submit review comments to github automatically. Never write the review comments to a file.
