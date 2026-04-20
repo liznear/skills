@@ -113,5 +113,7 @@ comment at first glance.
   giving their approval.
 - 🎋: A wishlist item. Something the reviewer thinks would be
   cool, that's not a blocker.
+- 👍: A good practice. Something the reviewer thinks the author has done
+  well.
 
 Never submit review comments to github automatically. Never write the review comments to a file.
