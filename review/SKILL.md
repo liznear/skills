@@ -117,3 +117,10 @@ comment at first glance.
   well.
 
 Never submit review comments to github automatically. Never write the review comments to a file.
+
+## Step 5: Add Test Cases to Reproduce Bugs
+
+If you found any bugs, you should add a test case to reproduce this bug. This
+helps the users to verify the bug, verify the fix later, and make sure there won't be regression.
+
+DO NOT commit the changes.
