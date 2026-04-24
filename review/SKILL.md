@@ -89,6 +89,11 @@ Perform thorough line-by-line analysis using the review checklist covering:
 
 1. Watch for common vulnerabilities (e.g., SQL injection, hardcoded secrets).
 
+### Misc
+
+1. No typos
+2. No non-English characters (e.g. "‘’“”，。")
+
 ## Step 4: Provide Feedback
 
 Provide detailed review comment on the specific line(s) of code. The feedback
