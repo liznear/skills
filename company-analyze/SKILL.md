@@ -1,9 +1,9 @@
 ---
-name: duan-company-analysis
+name: company-analyze
 description: Analyze a listed company or business using Duan Yongping style investment logic from the user's investment Q&A PDF and public case studies of Duan's investments. Use when asked to research a company, stock, A-share, Hong Kong stock, US stock, or private business through gates such as "买股票就是买公司", "看不懂不投", business model, company culture, long-term net cash flow, moat, valuation, opportunity cost, buy/hold/sell discipline, and event-time case reconstruction. Supports web research for current or historical company data, filings, financials, news, and market price when needed.
 ---
 
-# Duan Company Analysis
+# Company Analyze
 
 ## Core Rule
 
