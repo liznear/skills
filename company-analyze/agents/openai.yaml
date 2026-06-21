@@ -1,4 +1,0 @@
-interface:
-  display_name: "段永平公司分析"
-  short_description: "基于段永平投资问答录分析公司基本面现金流和机会成本"
-  default_prompt: "Use $duan-company-analysis to analyze this company with Duan Yongping style investment gates."
