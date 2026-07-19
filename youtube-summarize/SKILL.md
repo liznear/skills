@@ -12,11 +12,14 @@ Extract transcripts from YouTube videos, summarize them, and answer follow-up qu
 ### 1. Confirm prerequisites
 
 ```
-yt-dlp --version
-ffmpeg -version 2>/dev/null && echo "ffmpeg: OK" || echo "ffmpeg: NOT FOUND"
+for tool in yt-dlp ffmpeg; do
+  command -v "$tool" >/dev/null 2>&1 && echo "$tool: OK" || echo "$tool: NOT FOUND"
+done
 ```
 
-**Done when**: yt-dlp prints a version and you know whether ffmpeg is available. If yt-dlp is missing, guide: `brew install yt-dlp` (macOS) or `pip install yt-dlp`.
+Each iteration runs `command -v` in isolation, so `&&`/`||` left-associativity can't mix up the results across tools.
+
+**Done when**: you know whether yt-dlp and ffmpeg are available. If yt-dlp is missing, guide: `brew install yt-dlp` (macOS) or `pip install yt-dlp`.
 
 ### 2. Get the video URL
 
