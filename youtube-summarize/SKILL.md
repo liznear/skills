@@ -1,6 +1,7 @@
 ---
 name: youtube-summarize
 description: Download and summarize YouTube video transcripts. Use when the user wants to summarize a YouTube video, get a transcript, understand what a video says, or ask questions about video content.
+disable-model-invocation: true
 ---
 
 # YouTube Transcript Summarizer

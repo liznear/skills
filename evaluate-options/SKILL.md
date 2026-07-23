@@ -1,6 +1,7 @@
 ---
 name: evaluate-options
 description: Systematically compare options using a context-driven rubric. Use when the user wants to evaluate options, choose between paths, or compare alternatives.
+disable-model-invocation: true
 ---
 
 # evaluate-options

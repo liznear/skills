@@ -1,6 +1,7 @@
 ---
 name: design-space
 description: Explore the **design space** before committing to a design, to prevent **premature convergence** on the first plausible option. Use when facing an open-ended design question — "how should I design X?", an RFC, an architecture or API design, a database schema, a workflow, an agent runtime, a product decision, or a large refactoring. This opens the space; once you have a shortlist, hand it to `evaluate-options` to score against a rubric.
+disable-model-invocation: true
 ---
 
 # design-space
