@@ -1,6 +1,7 @@
 ---
 name: coda-exporter
 description: Export a Coda document to a standard Markdown file (.md). Use this skill whenever a user wants to download, convert, save, export, or back up a Coda page or document into Markdown. This skill automatically handles downloading the content and fixing internal anchor links to work correctly in the resulting Markdown file.
+disable-model-invocation: true
 ---
 
 # Coda to Markdown Exporter
